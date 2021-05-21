@@ -1,0 +1,19 @@
+<h1>Search for your marvel character</h1>
+
+<form action="/searchMarvel" method="POST">
+    <label for="marvelCharacter">Character: </label>
+    <input placeholder="Enter character here" type="text" name="charFilter">
+    <input class="submitButton" type="submit" value="submit">
+</form>
+
+<br>
+
+<div class="searchMarvel">
+<h2>{{name}}</h2>
+    <div class = "mainImage">
+        <img src ="{{image}}">
+    </div>
+<p>{{desc}}</p>
+<a class="button"href="/">Random marvel characters</a>
+</div>
+

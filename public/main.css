@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+h1{
+    font-family: "Bangers";
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin: 10px;
+}
+
+.marvelContent{
+    display: flex;
+    font-family: "Bangers";
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.marvelContent h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0;
+    color: white;
+    color: yellow;
+}
+
+.mainImage img {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    border-radius: 4px;
+}
+
+.marvelContent p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    width: 500px;
+    border: solid 2px;
+    border-color: white;
+}
+
+.btn-style {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-style:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.button{
+    font-family: "Bangers";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.button:hover{
+    background-color: yellow;
+    color: black;
+}
+
+form {
+    display: flex;
+    font-family: "Bangers";
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    background-color: white;
+    color: black;
+    width: 130px;
+    text-align: center;
+    
+}
+
+/* search input */
+input {
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    width: 300px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+/* submit button */
+.submitButton {
+    font-family: "Bangers";
+    font-size: 30px;
+    color: black;
+    width: 200px;
+    text-align: center;
+    margin-left: 10px;
+}
+.submitButton:hover {
+    background-color: yellow;
+}
+
+/* Main card */
+.searchMarvel {
+    font-family: "Bangers";
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+/* Main card character name*/
+.searchMarvel h2{
+    font-size: 50px;
+    margin-top: 0;
+    color: yellow;
+}
+
+/* Main card character desc*/
+.searchMarvel p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    width: 500px;
+    border: solid 2px;
+    border-color: white;
+}
